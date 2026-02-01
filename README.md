@@ -74,10 +74,8 @@ Example scripts live in [docs/kubejs_examples/](docs/kubejs_examples/).
 
 `mods.toml` declares the mod as **All Rights Reserved**.
 
-The repository also includes Forge/MDK template licensing files used by the development kit; if you intend to publish this as open-source, update the license declaration accordingly.
 
 ## Credits
 
 - JEI by mezz
 - Patchouli by Vazkii
-- Minecraft Forge
