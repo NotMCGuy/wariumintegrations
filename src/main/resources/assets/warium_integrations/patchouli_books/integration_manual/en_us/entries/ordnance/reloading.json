@@ -1,0 +1,20 @@
+{
+  "name": "Reloading",
+  "icon": "minecraft:crossbow",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:gunpowder",
+      "title": "Magazines",
+      "text": "Hold bullets in your offhand and press $(bold)R$() to load magazines. Keep a stack ready; swapping stacks continues loading without opening GUIs."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:crossbow",
+      "title": "Guns",
+      "text": "Hold the filled magazine in your offhand and press $(bold)R$() to reload the gun. Watch durability and heat as usual; reloading is instant if the magazine fits."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Uranium Enrichment",
+  "icon": "crusty_chunks:uranium_enriched_tiny_dust",
+  "category": "warium_integrations:nuclear",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "From Ore to Fuel",
+      "text": "Raw uranium ore → crushed dust → centrifuge → enriched material → fuel rods. Each step concentrates uranium-235. Higher enrichment = more power per rod."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mining & Crushing",
+      "text": "Mine raw uranium ore. Crush it with a $(l:warium_integrations:processing/crusher)crusher$(/l) to uranium dust. A single ore yields 1 dust block (scaling depends on crusher tier)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Centrifuge Processing",
+      "text": "Feed uranium dust into a $(l:warium_integrations:processing/centrifuge)centrifuge$(/l). It separates out enriched uranium (U-235) from depleted uranium (U-238). Enriched is what reactors want."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fuel Rod Crafting",
+      "text": "Combine enriched uranium pellets + reactor casing in a crafting grid $(bold)OR$() use a $(l:warium_integrations:processing/circuit_fabricator)circuit fabricator$(/l) for bulk production. Fabricator is much faster."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Supply Chain Tip",
+      "text": "Set up $(bold)automatic mining → crushing → centrifuge → fabricator → reactor$() pipeline. One miner feeding a centrifuge can sustain a modest reactor indefinitely."
+    }
+  ]
+}

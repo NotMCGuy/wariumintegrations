@@ -1,0 +1,21 @@
+{
+  "name": "Welcome",
+  "icon": "patchouli:guide_book",
+  "category": "warium_integrations:overview",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:image",
+      "title": "Intergrations Manual",
+      "images": [
+        "warium_integrations:textures/gui/manual/logo.png"
+      ],
+      "text": "$(bold)Welcome to the Warium Manual!$()$(br)This book walks you through Warium and its addons. \"Knowledge is the difference between victory and defeat.\" - TheMCGuy101 2025"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "How to Use",
+      "text": "Start at $(l:warium_integrations:overview/contents)Contents$(/l) to jump into each chapter. Sections cover motors, inputs/outputs, machines, and ordnance, with multiblock overlays where available. Ordinance overlays currently have a display bug; fixes are in progress."
+    }
+  ]
+}

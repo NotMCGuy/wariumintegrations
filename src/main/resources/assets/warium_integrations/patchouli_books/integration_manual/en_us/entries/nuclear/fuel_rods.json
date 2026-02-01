@@ -1,0 +1,33 @@
+{
+  "name": "Fuel Rods",
+  "icon": "crusty_chunks:fuel_rod",
+  "category": "warium_integrations:nuclear",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Standard Fuel Rods",
+      "text": "$(bold)crusty_chunks:fuel_rod$() are the primary fuel source for all reactors. Crafted from enriched uranium. Load them into empty_fuel_rod blocks (4-5 per slot). When depleted, they eject from the reactor automatically."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Loading Fuel",
+      "text": "To load fuel into a reactor:$(li)Collect 4-5 fuel rods in your inventory$(li)Right-click the empty_fuel_rod block with the rod in hand$(li)Repeat until the slot is full$(li)Reactor begins fission automatically once primed"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Plutonium Fuel (Endgame)",
+      "text": "Once you have plutonium_nuggets from a $(l:warium_integrations:nuclear/breeder_reactor)breeder reactor$(/l), you can craft ultra-high-density fuel rods. Combine plutonium_nugget + reactor_casing in a crafting grid to create plutonium-enriched fuel rods."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Plutonium Benefits",
+      "text": "Plutonium rods produce $(bold)significantly more RF$() per burn cycle and last much longer than standard uranium rods. They're the ultimate fuel source. Worth the effort to set up breeder reactors."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fuel Chain",
+      "text": "$(l:warium_integrations:nuclear/uranium_enrichment)Mine & enrich uranium$(/l) -> craft fuel rods -> load into power reactor -> generate power -> feed enriched uranium to breeder -> collect plutonium -> craft plutonium rods -> maximum efficiency."
+    }
+  ]
+}

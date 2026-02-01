@@ -1,0 +1,14 @@
+{
+  "name": "Inputs & Outputs",
+  "icon": "crusty_chunks:conveyor",
+  "category": "warium_integrations:overview",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:conveyor",
+      "title": "Flow Control",
+      "text": "Use production input/output blocks and conveyors to push items into the blue-side inputs and pull from the right-side outputs (unless a page notes otherwise). Keep outputs clear or machines pause. Motors set speed; routing sets uptime."
+    }
+  ]
+}

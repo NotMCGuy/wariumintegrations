@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "crusty_chunks:kerosene_bucket",
+    "crusty_chunks:diesel_bucket",
+    "crusty_chunks:petrolium_bucket"
+  ]
+}

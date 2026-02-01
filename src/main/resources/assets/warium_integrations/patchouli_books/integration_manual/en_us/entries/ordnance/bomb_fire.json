@@ -1,0 +1,30 @@
+{
+  "name": "Fire Bomb",
+  "icon": "crusty_chunks:ordinance_incendiary_warhead",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:ordinance_incendiary_warhead",
+      "title": "Fire Bomb",
+      "text": "$(bold)The opposite of a fire-fighter!$() Stack nose->tail: ordinance_incendiary_warhead, ordinance_core, and either ordinance_fins or ordinance_thruster. Place horizontally with the warhead pointed at the burn zone."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Layout",
+      "multiblock": {
+        "pattern": [
+          [ "T", "0", "H" ]
+        ],
+        "mapping": {
+          "H": "crusty_chunks:ordinance_incendiary_warhead",
+          "0": "crusty_chunks:ordinance_core",
+          "T": "crusty_chunks:ordinance_fins"
+        },
+        "symmetrical": true
+      },
+      "text": "Left to right = tail to nose. Start with fins or thruster (T), core (0) in the middle, warhead (H) at the nose."
+    }
+  ]
+}

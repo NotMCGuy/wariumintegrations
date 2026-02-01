@@ -1,0 +1,42 @@
+{
+  "name": "Assembly Machine",
+  "icon": "crusty_chunks:assembly_machine",
+  "category": "warium_integrations:assembly",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:assembly_machine",
+      "title": "Build",
+      "text": "Place this on top of an Assembly Depot to form the 2-block multiblock. Attach a Warium motor to the blue side for power; the depot itself does not need power. Without a head installed the machine will not expose recipes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:mechanical_press",
+      "title": "Heads",
+      "text": "Insert one head into the machine block to unlock recipes. Press: ingots -> plates; plates -> bent parts/tubes. Shear: cuts plates/components into wires, gears, and trims. Extruder: draws gears, wires, coils, or wood components. Bore (lathe): hollows barrels/projectiles and bores cast parts."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:assembly_depot",
+      "title": "IO + Tips",
+      "text": "Input on the depot's left; outputs on the right—blocked sides pause the multiblock. Depot tier controls speed; upgrade tiers for late-game heads. Supply power on the machine's blue side; items route through the depot."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Assembly Stack",
+      "multiblock": {
+        "pattern": [
+          [ "0" ],
+          [ "D" ]
+        ],
+        "mapping": {
+          "0": "crusty_chunks:assembly_machine",
+          "D": "crusty_chunks:assembly_depot"
+        },
+        "symmetrical": true
+      },
+      "text": "Simple 2-block column: machine on top (zero), depot beneath. Visualize if you need placement hints."
+    }
+  ]
+}

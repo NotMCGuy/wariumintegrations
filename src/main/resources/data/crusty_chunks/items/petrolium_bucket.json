@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:item",
+  "components": {
+    "minecraft:fluid_container": {
+      "fluid": "crusty_chunks:petrolium",
+      "amount": 1000
+    }
+  }
+}

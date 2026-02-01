@@ -1,0 +1,41 @@
+{
+  "name": "Oil Refinery",
+  "icon": "crusty_chunks:refinery",
+  "category": "warium_integrations:processing",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:refinery",
+      "title": "Stack",
+      "text": "Multiblock (top->bottom): refinery_tower x4, then the refinery base. Set any firebox directly under the refinery—electric, standard, or oil. Heat-driven only; no motor needed."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:refinery_tower",
+      "title": "IO",
+      "text": "Feed crude/fluid into the side with the firebox input; outputs leave the opposite face or ports. Pipe outputs to storage quickly to avoid backing up the tower. Great upstream of chemical/digester chains."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Refinery Stack",
+      "multiblock": {
+        "pattern": [
+          [ "T" ],
+          [ "T" ],
+          [ "T" ],
+          [ "T" ],
+          [ "0" ],
+          [ "X" ]
+        ],
+        "mapping": {
+          "T": "crusty_chunks:refinery_tower",
+          "0": "crusty_chunks:refinery",
+          "X": "crusty_chunks:electric_firebox"
+        },
+        "symmetrical": true
+      },
+      "text": "Four tower segments above the base (zero), with any firebox directly underneath. Visualize to check alignment—the preview uses the electric firebox but standard/oil fireboxes also work."
+    }
+  ]
+}

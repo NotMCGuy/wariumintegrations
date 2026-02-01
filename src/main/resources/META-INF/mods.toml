@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="warium_integrations"
+version="1.1.8"
+displayName="Warium Integrations"
+authors="You"
+description='''JEI categories for Warium/Crusty multiblocks (foundry, assembly, centrifuge).'''
+
+[[dependencies.warium_integrations]]
+modId="patchouli"
+mandatory=false
+versionRange="[1.20.1-84,)"
+ordering="NONE"
+side="CLIENT"

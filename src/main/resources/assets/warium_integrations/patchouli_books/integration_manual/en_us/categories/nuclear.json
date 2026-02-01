@@ -1,0 +1,6 @@
+{
+  "name": "Nuclear Technology",
+  "description": "Reactors, fuel rods, breeder reactors, and nuclear fuel processing.",
+  "icon": "crusty_chunks:power_reactor_port",
+  "sortnum": 4
+}

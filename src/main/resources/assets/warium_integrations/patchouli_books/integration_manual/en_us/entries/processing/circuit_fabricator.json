@@ -1,0 +1,14 @@
+{
+  "name": "Circuit Fabricator",
+  "icon": "crusty_chunks:assembly_circuit_fabricator",
+  "category": "warium_integrations:processing",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:assembly_circuit_fabricator",
+      "title": "Operation",
+      "text": "unfabricated_tech_component -> tech_component. Attach a motor to the blue side for power. Feed items on the power/input side and take finished components on the right."
+    }
+  ]
+}

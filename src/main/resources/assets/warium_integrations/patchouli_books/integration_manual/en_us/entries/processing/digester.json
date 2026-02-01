@@ -1,0 +1,20 @@
+{
+  "name": "Chemical Digester",
+  "icon": "crusty_chunks:bauxite_digester",
+  "category": "warium_integrations:processing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:bauxite_digester",
+      "title": "Operation",
+      "text": "pyrochlore_dust -> filtered_pyrochlore_dust; bauxite_dust -> aluminate_dust. Each recipe consumes 1-8 nitrate dust (see JEI). Attach a motor to the blue side for power and feed items on that same side."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:bauxite_digester",
+      "title": "Workflow",
+      "text": "A hopper above keeps nitrate flowing. Typical chain: Digester -> Centrifuge -> tiny dusts -> circuit/assembly steps. Outputs leave the right face—keep it clear to avoid halted cycles."
+    }
+  ]
+}

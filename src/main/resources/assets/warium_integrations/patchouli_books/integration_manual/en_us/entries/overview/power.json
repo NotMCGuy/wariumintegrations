@@ -1,0 +1,14 @@
+{
+  "name": "Power & Motors",
+  "icon": "crusty_chunks:electric_motor",
+  "category": "warium_integrations:overview",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:electric_motor",
+      "title": "Blue Side",
+      "text": "Most machines need a motor on the blue input side. Faster or higher-tier motors = faster processing; there are no other speed upgrades. Feed items on the same face as power unless a page calls out a different input. Outputs usually leave on the right face—keep that clear or the machine will pause."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Foundry",
+  "icon": "crusty_chunks:foundry",
+  "category": "warium_integrations:assembly",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:foundry",
+      "title": "Controller",
+      "text": "Single-block caster for barrels, cannon barrels, projectiles, and components. GUI slots: template on the left, metal input on the right. Outputs leave the right face; keep it clear with conveyors or pipes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:electric_firebox",
+      "title": "Heat Source",
+      "text": "Place directly above a firebox: electric_firebox, firebox, or oil_firebox. If the firebox is cold or missing, the foundry will not run. A basic fuel firebox burns roughly 2s per coal even when idle—plan storage accordingly."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Torpedo",
+  "icon": "crusty_chunks:torpedo_warhead",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:torpedo_warhead",
+      "title": "Torpedo",
+      "text": "$(bold)Loose lips sink ships... These will too!$() Stack nose->tail: torpedo_warhead, torpedo_core, torpedo_thruster. Place horizontally pointed downrange with the thruster facing aft."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Layout",
+      "multiblock": {
+        "pattern": [
+          [ "T", "0", "H" ]
+        ],
+        "mapping": {
+          "H": "crusty_chunks:torpedo_warhead",
+          "0": "crusty_chunks:torpedo_core",
+          "T": "crusty_chunks:torpedo_thruster"
+        },
+        "symmetrical": true
+      },
+      "text": "Left to right = tail to nose. Thruster (T) aft, core (0) mid, warhead (H) forward."
+    }
+  ]
+}

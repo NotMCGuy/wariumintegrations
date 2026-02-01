@@ -1,0 +1,20 @@
+{
+  "name": "Bomb Basics",
+  "icon": "crusty_chunks:redstone_tnt",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:redstone_tnt",
+      "title": "Placement",
+      "text": "Place multiblock bombs horizontally—align the nose toward the target and the tail toward propulsion or fins. Follow the listed nose-to-tail order for each assembly and leave clear space behind thruster variants."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:redstone_tnt",
+      "title": "Single Blocks",
+      "text": "Smoke, gas, and regular bombs place like TNT (use redstone_tnt for display). Single-block nuclear fission or fusion bombs need a fuze to work, and the multiblock instructions follow in their own entries."
+    }
+  ]
+}

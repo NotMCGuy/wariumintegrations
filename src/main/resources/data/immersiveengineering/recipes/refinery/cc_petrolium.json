@@ -1,0 +1,8 @@
+{
+  "type": "immersiveengineering:refinery",
+  "input0": { "tag": "forge:ip_gasoline", "amount": 1000 },
+  "input1": { "tag": "forge:water", "amount": 1000 },
+  "catalyst": { "item": "immersiveengineering:plate_silver" },
+  "result": { "fluid": "crusty_chunks:petrolium", "amount": 500 },
+  "energy": 4096
+}

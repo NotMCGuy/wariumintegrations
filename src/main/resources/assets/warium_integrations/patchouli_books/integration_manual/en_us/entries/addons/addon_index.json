@@ -1,0 +1,17 @@
+{
+  "name": "Add-ons",
+  "icon": "minecraft:amethyst_shard",
+  "category": "warium_integrations:addons",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Entries from installed Warium add-ons appear here. If none are installed, this page is all you'll see; install add-ons for tutorials tailored to their machines."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "For Add-on Authors",
+      "text": "Target the book id $(bold)warium_integrations:integration_manual$(). Ship your entry JSON under data/warium_integrations/patchouli_books/integration_manual/entries/addons/<your_entry>.json with category set to warium_integrations:addons. You can also add new categories under the same book path if you need more structure."
+    }
+  ]
+}

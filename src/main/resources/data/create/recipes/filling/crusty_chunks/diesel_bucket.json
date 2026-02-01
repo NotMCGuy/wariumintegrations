@@ -1,0 +1,10 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "minecraft:bucket" },
+    { "fluid": "crusty_chunks:diesel", "amount": 1000 }
+  ],
+  "results": [
+    { "item": "crusty_chunks:diesel_bucket" }
+  ]
+}

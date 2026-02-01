@@ -1,0 +1,30 @@
+{
+  "name": "SAHR Seeker",
+  "icon": "crusty_chunks:ordinance_sarh_seeker",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:ordinance_sarh_seeker",
+      "title": "SAHR Seeker",
+      "text": "$(bold)Hands free since '93$() Stack nose->tail: ordinance_sarh_seeker, ordinance_core, and either ordinance_fins or ordinance_thruster. Place horizontally with the seeker head forward."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Layout",
+      "multiblock": {
+        "pattern": [
+          [ "T", "0", "H" ]
+        ],
+        "mapping": {
+          "H": "crusty_chunks:ordinance_sarh_seeker",
+          "0": "crusty_chunks:ordinance_core",
+          "T": "crusty_chunks:ordinance_thruster"
+        },
+        "symmetrical": true
+      },
+      "text": "Left to right = tail to nose. Thruster or fins (T) at the rear, core (0) mid, seeker head (H) forward."
+    }
+  ]
+}

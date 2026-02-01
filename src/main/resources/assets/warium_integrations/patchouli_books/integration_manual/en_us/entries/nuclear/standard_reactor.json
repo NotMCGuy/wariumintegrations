@@ -1,0 +1,93 @@
+{
+  "name": "Power Reactor",
+  "icon": "crusty_chunks:power_reactor_port",
+  "category": "warium_integrations:nuclear",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Purpose",
+      "text": "The power reactor generates massive amounts of RF from nuclear fission. It uses fuel rods loaded into empty fuel rod blocks. $(bold)Always$() ensure cooling is active before inserting fuel."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Layer 1 (Bottom - Coolant)",
+      "text": "The bottom layer is mostly air with a single power_reactor_port (0) in the center. Pump coolant in here to establish your cooling loop. The reactor will $(bold)overheat and fail$() without active cooling."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Layer 2 & 3 (Core)",
+      "text": "The main fission chamber. Layer 2 has a central reaction_chamber (H); Layer 3 swaps the center for the power_reactor_interface (I). Both layers use control_rods (R) and reactor_casing (C) around the core."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Layer 4 (Top - Fuel Loading)",
+      "text": "Four empty_fuel_rods (E) positioned around the reactor top. Right-click each with crusty_chunks:fuel_rod to load fuel. You'll need $(bold)4-5 fuel rods per empty slot$() to start the reaction."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fuel Management",
+      "text": "Hold crusty_chunks:fuel_rod in hand and right-click an empty_fuel_rod block (E). Each slot requires 4-5 rods to initialize. Once loaded, the reactor becomes active and begins generating continuous power."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Multiblock Guide",
+      "text": "The power reactor is a 7x7x4 structure. Layer 4 is the top (fuel ports). Layers 2-3 form the core fission chamber. Layer 1 is the bottom (coolant input). See the next page for the full multiblock visualization."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Power Reactor (7x7x4)",
+      "multiblock": {
+        "pattern": [
+          [
+            "xxxxxxx",
+            "xxxExxx",
+            "xxxxxxx",
+            "xExxxEx",
+            "xxxxxxx",
+            "xxxExxx",
+            "xxxxxxx"
+          ],
+          [
+            "xxCRCxx",
+            "xxRHRxx",
+            "CRCRCRC",
+            "RHRIRHR",
+            "CRCRCRC",
+            "xxRHRxx",
+            "xxCRCxx"
+          ],
+          [
+            "xxCRCxx",
+            "xxRHRxx",
+            "CRCRCRC",
+            "RHRHRHR",
+            "CRCRCRC",
+            "xxRHRxx",
+            "xxCRCxx"
+          ],
+          [
+            "xxxxxxx",
+            "xxxxxxx",
+            "xxxxxxx",
+            "xxx0xxx",
+            "xxxxxxx",
+            "xxxxxxx",
+            "xxxxxxx"
+          ]
+        ],
+        "mapping": {
+          "E": "crusty_chunks:empty_fuel_rods",
+          "0": "crusty_chunks:power_reactor_port",
+          "I": "crusty_chunks:power_reactor_interface",
+          "H": "crusty_chunks:reaction_chamber",
+          "R": "crusty_chunks:control_rod",
+          "C": "crusty_chunks:reactor_casing",
+          "x": "minecraft:air"
+        },
+        "symmetrical": false
+      },
+      "text": "Full 7x7x4 layout shown top->bottom: fuel ports (E), interface (I), reaction core (H), and coolant port (0)."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Alloy Furnace",
+  "icon": "crusty_chunks:blast_furnace",
+  "category": "warium_integrations:processing",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:blast_furnace",
+      "title": "Stack",
+      "text": "Multiblock (top->bottom): blast_funnel, blast_funnel, blast_funnel, blast_furnace. Set any firebox below the blast_furnace—electric, standard, or oil. Heat only; no motor required."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:blast_funnel",
+      "title": "Mixing Tips",
+      "text": "Input on the powered/fuel side; outputs on the opposite face. Use funnels to batch alloy inputs, then pipe results onward. Pairs well with the thermal furnace upstream."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Alloy Furnace Stack",
+      "multiblock": {
+        "pattern": [
+          [ "F" ],
+          [ "F" ],
+          [ "F" ],
+          [ "0" ],
+          [ "X" ]
+        ],
+        "mapping": {
+          "F": "crusty_chunks:blast_funnel",
+          "0": "crusty_chunks:blast_furnace",
+          "X": "crusty_chunks:electric_firebox"
+        },
+        "symmetrical": true
+      },
+      "text": "Top-down: blast funnels x3, alloy furnace at zero, firebox beneath. Visualize to place the full stack. Any firebox variant works; the preview uses the electric firebox."
+    }
+  ]
+}

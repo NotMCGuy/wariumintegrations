@@ -1,0 +1,43 @@
+{
+  "name": "Contents",
+  "icon": "minecraft:writable_book",
+  "category": "warium_integrations:overview",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Basics",
+      "text": "$(l:warium_integrations:overview/power)Power & Motors$(/l): attach a motor to the blue face; faster tiers = faster machines."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Routing",
+      "text": "$(l:warium_integrations:overview/inputs_outputs)Inputs & Outputs$(/l): production input/output blocks + conveyors move items in/out; keep outputs clear."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Assembly",
+      "text": "$(l:warium_integrations:assembly/foundry)Foundry$(/l), $(l:warium_integrations:assembly/assembly_machine)Assembly Machine$(/l), $(l:warium_integrations:assembly/assembly_depot)Assembly Depot$(/l), $(l:warium_integrations:assembly/assembly_fabricator)Mechanical Fabricator$(/l): core machines for casting, shaping, and assembling components."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Processing",
+      "text": "Chemistry, smelting, and refining: $(l:warium_integrations:processing/centrifuge)Centrifuge$(/l), $(l:warium_integrations:processing/digester)Chemical Digester$(/l), $(l:warium_integrations:processing/circuit_fabricator)Circuit Fabricator$(/l), $(l:warium_integrations:processing/crusher)Crusher$(/l), $(l:warium_integrations:processing/thermal_furnace)Thermal Furnace$(/l), $(l:warium_integrations:processing/alloy_furnace)Alloy Furnace$(/l), $(l:warium_integrations:processing/oil_refinery)Oil Refinery$(/l). Speed scales only with the motor you attach."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Nuclear",
+      "text": "Endgame power generation: $(l:warium_integrations:nuclear/reactor_overview)Reactor Overview$(/l), $(l:warium_integrations:nuclear/standard_reactor)Power Reactor$(/l), $(l:warium_integrations:nuclear/fuel_rods)Fuel Rods$(/l), $(l:warium_integrations:nuclear/breeder_reactor)Breeder Reactor$(/l), $(l:warium_integrations:nuclear/cooling_systems)Cooling Systems$(/l), $(l:warium_integrations:nuclear/safety_containment)Safety & Containment$(/l), $(l:warium_integrations:nuclear/uranium_enrichment)Uranium Enrichment$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ordnance",
+      "text": "Hand weapons, bombs, missiles, and torpedoes: $(l:warium_integrations:ordnance/reloading)Reloading$(/l), $(l:warium_integrations:ordnance/bombs_basics)Bomb Basics$(/l), $(l:warium_integrations:ordnance/bomb_heavy)Heavy Bomb$(/l), $(l:warium_integrations:ordnance/bomb_fire)Fire Bomb$(/l), $(l:warium_integrations:ordnance/bomb_cluster)Cluster Bomb$(/l), $(l:warium_integrations:ordnance/bomb_ir)IR Seeker$(/l), $(l:warium_integrations:ordnance/bomb_sahr)SAHR Seeker$(/l), $(l:warium_integrations:ordnance/torpedo)Torpedo$(/l), $(l:warium_integrations:ordnance/bomb_bunker_buster)Bunker Buster$(/l), $(l:warium_integrations:ordnance/bomb_fission)Fission Bomb$(/l), $(l:warium_integrations:ordnance/bomb_fusion)Fusion Bomb$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Add-ons",
+      "text": "$(l:warium_integrations:addons/addon_index)Add-on Index$(/l) collects entries contributed by other Warium modules and expansions."
+    }
+  ]
+}

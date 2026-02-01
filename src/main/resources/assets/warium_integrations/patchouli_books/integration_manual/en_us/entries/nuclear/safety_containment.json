@@ -1,0 +1,18 @@
+{
+  "name": "Safety & Containment",
+  "icon": "crusty_chunks:reactor_casing",
+  "category": "warium_integrations:nuclear",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Distance & Isolation",
+      "text": "Build reactors far from important structures (at least 50+ blocks). Create a dedicated nuclear zone. Use fences or void space to isolate the reactor from the rest of your base."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Radiation Hazards",
+      "text": "Spent fuel rods are radioactive. Don't carry them in your inventory longer than necessary. Use hoppers, pipes, or item transport to move spent fuel directly to storage or breeder reactors."
+    }
+  ]
+}

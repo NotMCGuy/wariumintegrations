@@ -1,0 +1,23 @@
+{
+  "name": "Reactor Overview",
+  "icon": "crusty_chunks:power_reactor_port",
+  "category": "warium_integrations:nuclear",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Nuclear Power",
+      "text": "Warium's nuclear reactors are endgame power generation solutions. Multiple reactor types support various fuel densities and output levels. Always handle with care—improper setup leads to catastrophic failure."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Getting Started",
+      "text": "Start with the standard reactor (lowest tier). Fuel rods provide burn time. Always ensure cooling is active. Breeder reactors create new fuel from spent material. Never skip shutdown sequences."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Safety First",
+      "text": "$(bold)Golden Rule:$() Always check coolant flow before inserting fuel. Lack of cooling = reactor meltdown = bad day. Use containment blocks around your reactor. Keep a fire extinguisher nearby."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Thermal Furnace",
+  "icon": "crusty_chunks:thermal_furnace",
+  "category": "warium_integrations:processing",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:thermal_furnace",
+      "title": "Stack",
+      "text": "Multiblock (top->bottom): blast_funnel, blast_funnel, blast_funnel, thermal_furnace. Place any firebox below the furnace—electric, standard, or oil—and remember it runs only on heat, no motor required."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:blast_funnel",
+      "title": "IO",
+      "text": "Feed items from the firebox/input side; outputs leave the opposite face. Keep conveyors or pipes on the output to avoid stalls. Ideal for high-heat smelting before alloying steps."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Thermal Furnace Stack",
+      "multiblock": {
+        "pattern": [
+          [ "F" ],
+          [ "F" ],
+          [ "F" ],
+          [ "0" ],
+          [ "X" ]
+        ],
+        "mapping": {
+          "F": "crusty_chunks:blast_funnel",
+          "0": "crusty_chunks:thermal_furnace",
+          "X": "crusty_chunks:electric_firebox"
+        },
+        "symmetrical": true
+      },
+      "text": "Top-down: blast funnels x3, thermal furnace at zero, firebox under. Visualize to align the column. Any firebox type works; the blueprint shows the electric variant."
+    }
+  ]
+}

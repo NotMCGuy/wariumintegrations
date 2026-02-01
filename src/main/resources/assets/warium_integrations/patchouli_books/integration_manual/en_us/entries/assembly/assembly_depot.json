@@ -1,0 +1,20 @@
+{
+  "name": "Assembly Depot",
+  "icon": "crusty_chunks:assembly_depot",
+  "category": "warium_integrations:assembly",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:assembly_depot",
+      "title": "Role",
+      "text": "Required base for the Assembly Machine multiblock. Place the machine directly on top and swap heads in the machine to change recipes. The depot handles items only—the machine above takes motor power."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:assembly_depot",
+      "title": "IO + Tiers",
+      "text": "Input on the left face; output on the right face—clear jams to keep runs going. Conveyors or pipes are recommended on both sides for automation. Higher depot tiers speed processing for every head."
+    }
+  ]
+}

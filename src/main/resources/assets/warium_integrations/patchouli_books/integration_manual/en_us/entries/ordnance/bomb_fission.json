@@ -1,0 +1,31 @@
+{
+  "name": "Fission Bomb",
+  "icon": "crusty_chunks:ordinance_fission_initiator_head",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:ordinance_fission_initiator_head",
+      "title": "Fission Bomb",
+      "text": "$(bold)Big explosions for big problems.$() Stack nose->tail: ordinance_fission_initiator_head, ordinance_inline_fission_warhead, ordinance_core, ordinance_fins. Needs 6x implosion_lens and 1x fission_core installed to arm; a fuze is required. Place horizontally with the initiator forward."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Layout",
+      "multiblock": {
+        "pattern": [
+          [ "T", "C", "0", "I" ]
+        ],
+        "mapping": {
+          "I": "crusty_chunks:ordinance_fission_initiator_head",
+          "0": "crusty_chunks:ordinance_inline_fission_warhead",
+          "C": "crusty_chunks:ordinance_core",
+          "T": "crusty_chunks:ordinance_fins"
+        },
+        "symmetrical": true
+      },
+      "text": "Left to right = tail to nose. Fins (T), core (C), inline warhead (0), initiator (I). Install lenses and fission core before arming."
+    }
+  ]
+}

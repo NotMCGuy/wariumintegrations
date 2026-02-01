@@ -1,0 +1,32 @@
+{
+  "name": "Fusion Bomb",
+  "icon": "crusty_chunks:ordinance_inline_fusion_warhead_stage_2",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:ordinance_inline_fusion_warhead_stage_2",
+      "title": "Fusion Bomb",
+      "text": "$(bold)You have become death... destroyer of worlds.$() Stack nose->tail: ordinance_fission_initiator_head, ordinance_inline_fusion_warhead_stage_2, ordinance_inline_fusion_warhead_stage_1, ordinance_core, ordinance_fins. Needs 6x implosion_lens and 1x fission_core installed to arm; a fuze is required. Place horizontally with the initiator forward."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Layout",
+      "multiblock": {
+        "pattern": [
+          [ "T", "C", "0", "F", "I" ]
+        ],
+        "mapping": {
+          "I": "crusty_chunks:ordinance_fission_initiator_head",
+          "F": "crusty_chunks:ordinance_inline_fusion_warhead_stage_2",
+          "0": "crusty_chunks:ordinance_inline_fusion_warhead_stage_1",
+          "C": "crusty_chunks:ordinance_core",
+          "T": "crusty_chunks:ordinance_fins"
+        },
+        "symmetrical": true
+      },
+      "text": "Left to right = tail to nose. Fins (T), core (C), fusion stage 1 (0), fusion stage 2 (F), initiator (I). Install lenses and fission core before arming."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Integration Manual",
+  "subtitle": "Foundry & Assembly",
+  "landing_text": "A quick reference for Warium foundry, assembly, and chemistry workflows.$(br2)Use the tabs to jump to machines or to the Add-ons section for entries contributed by other mods.",
+  "version": 1,
+  "model": "patchouli:book_red",
+  "book_texture": "patchouli:textures/gui/book_purple.png",
+  "creative_tab": "minecraft:tools_and_utilities",
+  "show_progress": false,
+  "pause_on_open": true,
+  "use_resource_pack": true
+}

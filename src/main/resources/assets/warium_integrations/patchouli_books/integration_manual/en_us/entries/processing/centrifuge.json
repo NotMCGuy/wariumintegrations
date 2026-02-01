@@ -1,0 +1,46 @@
+{
+  "name": "Centrifuge",
+  "icon": "crusty_chunks:assembly_centrifuge_middle",
+  "category": "warium_integrations:processing",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:assembly_centrifuge_middle",
+      "title": "Purpose",
+      "text": "Separates dusts into tiny dusts: pyrochlore, bauxite, uranium neutral, and lithium. Attach a motor to the blue side of the middle block; item input should share that side. Single-block early game; multiblock boosts throughput later."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:assembly_centrifuge_top",
+      "title": "Multiblock",
+      "text": "Stack (top->bottom): assembly_centrifuge_top, assembly_centrifuge_middle (IO/controller), assembly_centrifuge_bottom. The blue input marker is on the bottom centrifuge block—face that toward power and item input. Keep left/right clear for item flow; the middle block handles IO."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Centrifuge Stack",
+      "multiblock": {
+        "pattern": [
+          [ "T" ],
+          [ "0" ],
+          [ "B" ],
+          [ "C" ]
+        ],
+        "mapping": {
+          "T": "crusty_chunks:assembly_centrifuge_top",
+          "0": "crusty_chunks:assembly_centrifuge_middle",
+          "B": "crusty_chunks:assembly_centrifuge_bottom",
+          "C": "crusty_chunks:giant_coil"
+        },
+        "symmetrical": true
+      },
+      "text": "Top-to-bottom tower with the controller at the center. Visualize to see placement; coil sits directly under the bottom block."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:giant_coil",
+      "title": "Coil + IO",
+      "text": "Place a giant_coil directly under the bottom block; without it, the centrifuge will not spin. Input on the left of the middle layer; tiny dusts exit on the right—blocked outputs pause processing. Conveyors or pipes keep dust moving between digester and centrifuge."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Ordnance",
+  "description": "Bombs, missiles, torpedoes, and reload tips.",
+  "icon": "crusty_chunks:ordinance_core",
+  "sortnum": 3
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Cluster Bomb",
+  "icon": "crusty_chunks:ordinance_cluster_warhead",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:ordinance_cluster_warhead",
+      "title": "Cluster Bomb",
+      "text": "$(bold)When accuracy isn't your strength. Spread your bets!$() Stack nose->tail: ordinance_cluster_warhead, ordinance_core, and either ordinance_fins or ordinance_thruster. Place horizontally with fins or thruster aligned at the tail."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Layout",
+      "multiblock": {
+        "pattern": [
+          [ "T", "0", "H" ]
+        ],
+        "mapping": {
+          "H": "crusty_chunks:ordinance_cluster_warhead",
+          "0": "crusty_chunks:ordinance_core",
+          "T": "crusty_chunks:ordinance_fins"
+        },
+        "symmetrical": true
+      },
+      "text": "Left to right = tail to nose. Point H at the target; T is fins or thruster at the rear."
+    }
+  ]
+}

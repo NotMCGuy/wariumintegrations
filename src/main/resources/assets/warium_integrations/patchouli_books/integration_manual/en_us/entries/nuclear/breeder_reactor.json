@@ -1,0 +1,94 @@
+{
+  "name": "Breeder Reactor",
+  "icon": "crusty_chunks:breeder_reactor_interface",
+  "category": "warium_integrations:nuclear",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Purpose",
+      "text": "The breeder reactor converts enriched uranium dust into plutonium nuggets\u2014the ultimate fuel source. Feed crusty_chunks:uranium_enriched_dust in the top and collect crusty_chunks:plutonium_nugget from the empty_fuel_rod blocks. Requires significant power investment."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Multiblock Structure",
+      "text": "Structure mirrors the power reactor. $(bold)Key layers (top->bottom):$()$(li)Layer 4: Four empty_fuel_rod blocks (E) for output collection.$(li)Layer 3: breeder_reactor_interface at center, surrounded by reaction chambers (H), control rods (R), and reactor casing (C).$(li)Layer 2: breeder_reactor_core at center with the same surrounding ring.$(li)Layer 1: breeder_reactor_port (0) at center for coolant/power."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Critical Difference",
+      "text": "Compared to the power reactor, Layer 3 has $(bold)breeder_reactor_interface$() at the center instead of the power interface. This interface controls the uranium\u2192plutonium transmutation reaction."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Operation",
+      "text": "$(bold)Setup:$() Attach RF power to the breeder_reactor_port (0).$(br)$(bold)Input:$() Feed crusty_chunks:uranium_enriched_dust via hopper on top.$(br)$(bold)Output:$() Collect crusty_chunks:plutonium_nugget from the four E blocks."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Power Consumption",
+      "text": "The breeder consumes $(bold)substantial RF$() to transmute uranium. Plan your power infrastructure accordingly\u2014a dedicated reactor often powers the breeder. The plutonium output justifies the energy cost."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fuel Crafting",
+      "text": "Once you have plutonium_nuggets, combine them with reactor_casing to craft ultra-high-density fuel rods. These produce $(bold)even more RF$() per burn cycle and last much longer than standard fuel."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Breeder Reactor (7x7x4)",
+      "multiblock": {
+        "pattern": [
+          [
+            "xxxxxxx",
+            "xxxExxx",
+            "xxxxxxx",
+            "xExxxEx",
+            "xxxxxxx",
+            "xxxExxx",
+            "xxxxxxx"
+          ],
+          [
+            "xxCRCxx",
+            "xxRHRxx",
+            "CRCRCRC",
+            "RHRIRHR",
+            "CRCRCRC",
+            "xxRHRxx",
+            "xxCRCxx"
+          ],
+          [
+            "xxCRCxx",
+            "xxRHRxx",
+            "CRCRCRC",
+            "RHRBRHR",
+            "CRCRCRC",
+            "xxRHRxx",
+            "xxCRCxx"
+          ],
+          [
+            "xxxxxxx",
+            "xxxxxxx",
+            "xxxxxxx",
+            "xxx0xxx",
+            "xxxxxxx",
+            "xxxxxxx",
+            "xxxxxxx"
+          ]
+        ],
+        "mapping": {
+          "E": "crusty_chunks:empty_fuel_rods",
+          "0": "crusty_chunks:breeder_reactor_port",
+          "I": "crusty_chunks:breeder_reactor_interface",
+          "B": "crusty_chunks:breeder_reactor_core",
+          "H": "crusty_chunks:reaction_chamber",
+          "R": "crusty_chunks:control_rod",
+          "C": "crusty_chunks:reactor_casing",
+          "x": "minecraft:air"
+        },
+        "symmetrical": false
+      },
+      "text": "Full 7x7x4 layout shown top->bottom: fuel ports (E), interface (I), core (B), and breeder port (0)."
+    }
+  ]
+}

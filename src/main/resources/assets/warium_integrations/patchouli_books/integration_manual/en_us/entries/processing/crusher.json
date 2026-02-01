@@ -1,0 +1,20 @@
+{
+  "name": "Crusher",
+  "icon": "crusty_chunks:assembly_crusher",
+  "category": "warium_integrations:processing",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:assembly_crusher",
+      "title": "Setup",
+      "text": "Single-block crusher: the blue side takes motor power, inputs feed on that power side, and outputs exit the right face. No wheel installed means no crushing."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:steel_crushing_wheel",
+      "title": "Core",
+      "text": "Accepts iron or steel crushing wheels (crusty_chunks:irongear or crusty_chunks:steel_crushing_wheel). Steel wheels last longer—swap before they break to avoid downtime. Pipe outputs straight into digesters or centrifuges and keep the right side clear."
+    }
+  ]
+}

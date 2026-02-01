@@ -1,0 +1,31 @@
+{
+  "name": "Bunker Buster",
+  "icon": "crusty_chunks:ordinance_kinetic_head",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:ordinance_kinetic_head",
+      "title": "Bunker Buster",
+      "text": "$(bold)For when the enemy really won't come out to play.$() Stack nose->tail: ordinance_kinetic_head, ordinance_inline_warhead, ordinance_core, ordinance_fins. Place horizontally so the fins stabilize impact."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Layout",
+      "multiblock": {
+        "pattern": [
+          [ "T", "0", "W", "H" ]
+        ],
+        "mapping": {
+          "H": "crusty_chunks:ordinance_kinetic_head",
+          "W": "crusty_chunks:ordinance_inline_warhead",
+          "0": "crusty_chunks:ordinance_core",
+          "T": "crusty_chunks:ordinance_fins"
+        },
+        "symmetrical": true
+      },
+      "text": "Left to right = tail to nose. Fins (T) at the rear, core (0), inline warhead (W), kinetic head (H) up front."
+    }
+  ]
+}

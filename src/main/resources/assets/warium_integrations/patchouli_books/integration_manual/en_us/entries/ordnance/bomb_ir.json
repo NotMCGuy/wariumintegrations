@@ -1,0 +1,30 @@
+{
+  "name": "IR Seeker",
+  "icon": "crusty_chunks:ordinance_ir_seeker_head",
+  "category": "warium_integrations:ordnance",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:ordinance_ir_seeker_head",
+      "title": "IR Seeker",
+      "text": "$(bold)A friendly reminder to watch your back!$() Stack nose->tail: ordinance_ir_seeker_head, ordinance_core, ordinance_thruster. Place horizontally with the seeker head facing forward."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Layout",
+      "multiblock": {
+        "pattern": [
+          [ "T", "0", "H" ]
+        ],
+        "mapping": {
+          "H": "crusty_chunks:ordinance_ir_seeker_head",
+          "0": "crusty_chunks:ordinance_core",
+          "T": "crusty_chunks:ordinance_thruster"
+        },
+        "symmetrical": true
+      },
+      "text": "Left to right = tail to nose. Thruster (T) at the rear, core (0) mid, seeker head (H) forward."
+    }
+  ]
+}

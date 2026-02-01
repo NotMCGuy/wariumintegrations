@@ -1,0 +1,14 @@
+{
+  "name": "Mechanical Fabricator",
+  "icon": "crusty_chunks:assembly_mechanical_fabricator",
+  "category": "warium_integrations:assembly",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "crusty_chunks:assembly_mechanical_fabricator",
+      "title": "Operation",
+      "text": "Single-block fabricator for late-line parts: advanced_alloy_ingot -> advanced_alloy_component and aluminum_block -> precision_component. Attach a motor to the blue side for power; automate left in/right out."
+    }
+  ]
+}
